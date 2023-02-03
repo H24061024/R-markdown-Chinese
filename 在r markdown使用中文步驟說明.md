@@ -17,17 +17,20 @@
 
 選取file>New file>R Markdown
 
-![graph1](http://140.116.52.106/miaoyu/r-markdown-chinese-1/-/wikis/uploads/896104823f8e0f8b926bbc43c0d2abbd/1.png)
+![graph1](![1](https://user-images.githubusercontent.com/38903695/216540143-6d6c433f-66a1-4742-9e16-4b9009db4c4e.png)
+)
 
 
 之後會跳出以下畫面，選擇From Template，之後選擇CTeX Documents
 
-![graph2](http://140.116.52.106/miaoyu/r-markdown-chinese-1/-/wikis/uploads/d821f72bc6b8689e133ad980a75d44df/2.png)
+![graph2](![2](https://user-images.githubusercontent.com/38903695/216540191-d68c0e79-e2ed-4955-93a9-2f0c4320526b.png)
+)
 
 
 完成後即可生成以下模板，就可以使用簡體中文了
 
-![graph3](http://140.116.52.106/miaoyu/r-markdown-chinese-1/-/wikis/uploads/2cd7f7c08d4a8c8d8381178270a4fbb8/3.png)
+![graph3](![3](https://user-images.githubusercontent.com/38903695/216540276-001162de-359c-46ba-84d3-f46fe55f561d.png)
+)
 
 --------
 
@@ -35,7 +38,8 @@
 
 由於該套件作者使用的是簡體中文，因此如果要使用繁體中文還需要給文件一些追加設定，追加設定的方法就是在rticles::cex:後面追加一行include:in_header:setup.tex，並且把這個setup.tex放到和rmd檔同樣的資料夾內。
 
-![graph4](http://140.116.52.106/miaoyu/r-markdown-chinese-1/-/wikis/uploads/246d3f72f4252e783d179f194c4d21e0/4.png)
+![graph4](![4](https://user-images.githubusercontent.com/38903695/216540297-e7b57af1-d5d3-42bf-85d9-2c5cc4d41cf3.png)
+)
 
 
 這行指令的功能是在生成tex檔時，額外給他一些設定，不過要注意，給的額外設定不可以和原始設定衝突，因此若要自行新增其他設定請記得跑一次模板，然後看看產生的tex檔內有什麼東西。
@@ -62,7 +66,8 @@
 
 即可如下圖列出自己電腦或server上有的字體(註:這是window系統的指令)
 
-![graph5](http://140.116.52.106/miaoyu/r-markdown-chinese-1/-/wikis/uploads/e5da623c08dd61bae95e13490ca50893/5.png)
+![graph5](![5](https://user-images.githubusercontent.com/38903695/216540337-43ffc50e-175f-46a3-ae5e-764c3d3ebe5a.png)
+)
 
 以上圖為例，如果我想使用新細明體，則可以在setup.tex字體中指定"新細明體"或是"PMingLiU"來呼叫此字體
 
