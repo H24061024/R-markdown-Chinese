@@ -5,9 +5,11 @@
 
 **步驟一:環境設置**
 
-在r studio中使用以下指令安裝套件"rticles"
+在r studio中使用以下指令安裝套件"rticles","tinytex"
 
     install.packages("rticles")
+    install.packages("tinytex")
+    tinytex::install_tinytex()
 
 此套件會讓R studio中可選擇的R Markdown模板增加，我們需要的就是其中一個模板，詳情請看[rticles github](https://github.com/rstudio/rticles)。
 
